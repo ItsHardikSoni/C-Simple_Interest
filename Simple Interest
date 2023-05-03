@@ -1,0 +1,15 @@
+/* Calculation of Simple Interest */
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int p,t;
+	float r,si;
+	p = 1000;
+	r = 8.5;
+	t = 3;
+	/*Formula of Simple Interest*/
+	si = p*r*t/100;
+	printf(" %f\n", si);
+	return 0;
+}
